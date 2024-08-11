@@ -1,0 +1,39 @@
+/* naisouFacility.scss */
+.naisou-facility {
+    display: flex;
+    align-items: center; /* 縦方向の中央揃え */
+    justify-content: flex-start; /* 横方向の右揃え */
+    height: 100%; /* 親要素の高さの35%に設定 */
+    width: 50%; /* 親要素の幅の50%に設定 */
+    padding: 20px; /* 余白 */
+    background-color: #f9f9f9; /* 背景色 */
+    border: 1px solid #ddd; /* ボーダー */
+    box-sizing: border-box; /* パディングとボーダーを含めた幅の計算 */
+    margin-left: auto; /* 左側のマージンを自動で調整して右に配置 */
+    margin: 5px 0;
+  
+    .naisou-image {
+      width: 60%; /* 画像部分の幅を .naisou-facility の幅の60%に設定 */
+      height: 100%; /* 画像部分の高さを親要素に合わせる */
+      margin-right: 20px; /* 画像とテキストの間隔 */
+      overflow: hidden; /* 画像が親要素からはみ出さないように */
+      background-color: red;
+      
+      img {
+        width: 100%; /* 画像の幅を親要素に合わせる */
+        height: 100%; /* 画像の高さを親要素に合わせる */
+        object-fit: cover; /* 画像のサイズ調整 */
+      }
+    }
+  
+    .facility-info {
+      width: 20%; /* テキスト部分の幅を .naisou-facility の幅の20%に設定 */
+      
+      p {
+        font-size: 1rem; /* 文字サイズ */
+        color: #333; /* 文字色 */
+        text-align: center; /* 文字を中央揃え */
+      }
+    }
+  }
+  

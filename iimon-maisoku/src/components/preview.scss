@@ -1,0 +1,27 @@
+/* preview.scss */
+.preview {
+    display: flex;
+    flex-direction: column; /* Header と GaikanNaisouExtraInfo を縦に並べる */
+}
+  
+.basic-info-container {
+    display: flex; /* 横並びに配置 */
+    min-height: 300px;
+    width: 100%; /* 幅を100%に設定 */
+    height: 40vh; /* 高さを適切に設定 */
+}
+  
+.basic-info {
+    flex: 1; /* BasicInfo が右側のコンポーネントのスペースを確保 */
+}
+  
+.naisou-facility {
+    flex: 1; /* NaisouFacility が右側に表示されるように設定 */
+}
+  
+.gaikan-naisou-etrainfo-container {
+    min-height: 300px;
+    display: flex; /* 横並びに配置 */
+    width: 100%; /* 幅を100%に設定 */
+    height: 40vh; /* 高さを適切に設定 */
+}
