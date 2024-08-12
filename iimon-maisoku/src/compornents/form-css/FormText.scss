@@ -1,12 +1,31 @@
 /*               l-FormText
 =============================================== */
-.l-FormTextFormat {
+.l-FormText {
     display: flex;
     flex-direction: column;
+    margin: 7px;
 }
 
 /*               p-Form
 =============================================== */
-.pdf {
-    margin-top: 10px;
+.p-FormTextTop {
+    margin-top: 8px;
+}
+
+.l-FormText p {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 220px;
+}
+
+.p-FormTextDisplay {
+    margin-bottom: 5px;
+}
+
+.p-FormTextDisplayh1 {
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 8px;
 }
