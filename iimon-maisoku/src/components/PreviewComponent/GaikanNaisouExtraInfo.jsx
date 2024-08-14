@@ -7,6 +7,9 @@ const GaikanNaisouExtraInfo = () => {
         <div className='gaikan-image'>
             {/* <img src="" alt="" /> */}
         </div>
+        <div className='naisou-image'>
+            {/* <img src="" alt="" /> */}
+        </div>
         <div className='extraInfo'>
             <p>面積</p>
             <p>階</p>
