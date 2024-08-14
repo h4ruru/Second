@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import InputFormText from './FormTexts/InputFormText';
 import DisplayFormText from './FormTexts/DisplayFormText';
 
-function App() {
+function Form() {
   const [inputValues, setInputValues] = useState({
     物件名: '',
     住所: '',
@@ -26,8 +26,8 @@ function App() {
   };
 
   return (
-    <div>
-      <p>物件名:</p>
+    <div className='l-FormText'>
+      <p className='p-FormTextTop'>物件名:</p>
       <InputFormText name="物件名" onInputChange={handleInputChange} />
 
       <p>住所:</p>
@@ -59,10 +59,11 @@ function App() {
       
       <p>種類:</p>
       <InputFormText name="種類" onInputChange={handleInputChange} />
+
       <DisplayFormText values={inputValues} />
     </div>
   );
 }
 
-export default App;
+export default Form;
 
