@@ -10,7 +10,45 @@
     margin-right: 20px;
 }
 
-/*               p-form
+.l-FormHeader {
+    width: 225px;
+    font-size: 11px;
+    margin-inline-start: auto;
+    height: 50px; 
+}
+
+.l-FormText {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+}
+
+.l-FormPicture {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+
+.l-FormCheckbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+/*               p-Form
 =============================================== */
-/*               form
+.l-FormPicture form {
+    margin: 5px;
+}
+
+.l-FormCheckbox label{
+    margin: 3px;
+}
+/*               p-Prevew
 =============================================== */
+.p-PPrevew h2 {
+    font-size: 13px;
+}
+
+.p-PPrevew img {
+    width: 100%;
+}
