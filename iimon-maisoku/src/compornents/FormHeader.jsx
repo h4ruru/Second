@@ -1,4 +1,4 @@
-import './form-css/FormHeader.scss'
+import './form-css/Form.scss'
 
 
 function FormHeader() {

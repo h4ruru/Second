@@ -1,14 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function InputFormText({ onInputChange, name }) {
+function InputFormText({ name, value, onInputChange }) {
   const handleChange = (event) => {
-    onInputChange(name, event.target.value);
+    const { name, value } = event.target;
+    onInputChange(name, value); // 親コンポーネントに値を渡す
   };
 
   return (
     <input
       type="text"
       name={name}
+      value={value}
       onChange={handleChange}
     />
   );
